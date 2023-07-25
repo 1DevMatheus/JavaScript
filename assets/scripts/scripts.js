@@ -66,22 +66,24 @@ function getPersonagens() {
         <div> <img src=` +
           results.image +
           `>
-        <header>` +
+        <header>Name: ` +
           results.name +
           `</header>
-         <main>` +
+         <main>Gender: ` +
           results.gender +
           `
          <br>
-        ` +
+
+        
+         Status: ` +
           results.status +
           `
          <br>
-         ` +
+        Location: ` +
           results.location.name +
           `
          <br>
-        ` +
+        Origin: ` +
           results.origin.name +
           `
         <br>
